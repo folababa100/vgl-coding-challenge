@@ -157,5 +157,4 @@ export default defineComponent({
   width: 100%;
   text-align: center;
 }
-
 </style>

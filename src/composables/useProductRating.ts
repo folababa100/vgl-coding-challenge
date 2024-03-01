@@ -17,13 +17,20 @@ export function useProductRating(rating: Ref<number>): UseProductRatingReturn {
 
   const gradeText = computed(() => {
     switch (gradeNumber.value) {
-      case 1: return "sehr gut";
-      case 2: return "gut";
-      case 3: return "befriedigend";
-      case 4: return "ausreichend";
-      case 5: return "mangelhaft";
-      case 6: return "ungenügend";
-      default: return "";
+      case 1:
+        return 'sehr gut';
+      case 2:
+        return 'gut';
+      case 3:
+        return 'befriedigend';
+      case 4:
+        return 'ausreichend';
+      case 5:
+        return 'mangelhaft';
+      case 6:
+        return 'ungenügend';
+      default:
+        return '';
     }
   });
 
