@@ -8,7 +8,10 @@
     "build": "vue-tsc && vite build",
     "preview": "vite preview",
     "clean": "rm -rf node_modules && rm -rf yarn.lock && rm -rf package-lock.json",
-    "test": "vitest"
+    "test": "vitest",
+    "lint": "vue-tsc",
+    "format": "prettier --write .",
+    "check": "prettier --check ."
   },
   "dependencies": {
     "vue": "^3.4.19"
